@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/main.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kufam&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gabriola&display=swap" rel="stylesheet">
+
+  <title>About Us</title>
+</head>
+<body>
+
+
+
+<div class="sm:px-6 lg:px-11">
+  <nav class="bg-white font-bold rounded-lg shadow-lg">
+    <div class="flex justify-between items-center h-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+     
+      <div class="flex-shrink-0">
+        <a href="#" class="text-xl font-bold"><img src="../assets/FATEH LOGO.png" alt="Logo"></a>
+      </div>
+
+      
+      <div style="font-family:cooper;" class="navbar-links hidden md:flex space-x-10 relative">
+        <a href="../index.html" class="text-customgrey relative  ml-10  text-14px leading-26px ">
+          Home
+        
+        </a>
+
+        <a href="service.html" class="relative text-14px leading-26px text-customgrey">
+          Services
+        </a>
+        
+        <a href="about-us.html" class="relative text-14px leading-26px  text-customOrange">
+          About
+          <span
+          class="absolute left-1/2 -bottom-[8px] -translate-x-1/2 w-[21px] h-[8px] bg-customOrange"
+          style="clip-path: polygon(50% 0%, 0% 100%, 100% 100%);">
+        </span>
+        </a>
+        
+        <a href="contact.html" class="relative text-14px leading-26px text-customgrey">
+          Contact
+        </a>
+      </div>
+
+      
+      <div class="md:hidden flex items-center">
+        <button id="menu-btn" class="focus:outline-none">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+ 
+    <div id="menu" class="hidden md:hidden bg-white">
+      <a href="../index.html" class="text-customgrey relative block px-4 py-2 font-cooper text-14px leading-26px">
+        Home
+       
+      </a>
+      <a href="about-us.html" class="block px-4 py-2 font-cooper text-14px leading-26px  text-customOrange">
+        About
+        <!-- <span
+        class="absolute left-1/2 -bottom-[8px] -translate-x-44 w-[21px] h-[8px] bg-[#F65934]"
+        style="clip-path: polygon(50% 0%, 0% 100%, 100% 100%);">
+      </span> -->
+      </a>
+      <a href="service.html" class="block px-4 py-2 font-cooper text-14px leading-26px text-customgrey">
+        Services
+      </a>
+      <a href="contact.html" class="block px-4 py-2 font-cooper text-14px leading-26px text-customgrey">
+        Contact
+      </a>
+    </div>
+  </nav>
+</div>
+
+
+<!-- about us  -->
+
+
+<section class="bg-[#fdf9e3] flex flex-col md:flex-row items-center justify-betweep-[20px] rounded-[16px] shadow-[0px_4px_10px_rgba(0,0,0,0.1)] max-w-[1200px] mx-auto mt-[60px]">
+  <!-- About Content -->
+  <div class="about-content flex-1 pl-[20px] mb-[100px] md:mb-0">
+    <h2 class="text-black font-bold text-[35px] leading-[26px] mb-[20px] font-copper">About</h2>
+    <p class="text-abouttextcolor text-[22px] leading-[26px] mb-[20px] font-gabriola">
+      Fateh Al Mustaqbil is a one-of-a-kind travel agency designed to cater to the interests of travelers across the globe, founded in 2023 in Riyadh, Saudi Arabia. Our expertise lies in crafting exceptional journeys tailored to each client's unique requirements, whether it be ticketing, hotel bookings, or visa assistance. With competitive pricing and access to superior consulting services, we have become the favored choice among travelers. Fateh Al Mustaqbil plays a pivotal role in shaping the landscape of travel and tour services not only within the Kingdom of Saudi Arabia but also on a global scale.
+    </p>
+    <p class="text-abouttextcolor text-[22px] leading-[26px] font-gabriola">
+      Welcome to Fateh Al Mustaqbil, where we advocate exploring the world one adventure at a time. Come, be a part of this remarkable journey, and together, let's craft experiences that transcend time and place.
+    </p>
+  </div>
+
+  <!-- About Image -->
+  <div class="flex-1 flex justify-center">
+    <img src="../assets/Image 3.png" alt="Riyadh Cityscape" class="w-full max-w-[350px] rounded-[16px] shadow-[0px_4px_10px_rgba(0,0,0,0.2)]">
+  </div>
+</section>
+
+
+
+<!-- //footer  -->
+<footer class="bg-black text-white text-center py-6">
+  <!-- Footer Logo -->
+  <div class="mt-10">
+    <img src="/assets/FOOTER LOGO.png" alt="Logo" class="mx-auto w-36 mb-5">
+  </div>
+
+  <!-- Footer Navigation -->
+  <nav class="footer-nav mt-12">
+    <ul class="flex justify-center gap-5">
+      <li><a href="#home" class="text-white text-base font-bold hover:text-colorIcon transition-colors">Home</a></li>
+      <li><a href="#services" class="text-white text-base font-bold hover:text-colorIcon transition-colors">Service</a></li>
+      <li><a href="./pages/about-us.html" class="text-white text-base font-bold hover:text-colorIcon transition-colors">About</a></li>
+      <li><a href="#contact" class="text-white text-base font-bold hover:text-colorIcon transition-colors">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Social Icons -->
+  <div class="flex justify-center mt-5 gap-4">
+    <a href="https://facebook.com" target="_blank" class="text-colorIcon text-xl hover:text-colorIcon transition-colors">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://twitter.com" target="_blank" class="text-colorIcon text-xl hover:text-colorIcon transition-colors">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://instagram.com" target="_blank" class="text-colorIcon text-xl hover:text-colorIcon transition-colors">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+
+  <!-- Footer Copyright -->
+  <p class="footer-copy italic text-gray-400 text-lg mt-10 font-serif">
+    All rights reserved for 2024
+  </p>
+</footer>
+
+
+
+ 
+<script>
+  const translations = {
+    en: {
+      aboutHeading: "About",
+      aboutText1: "Fateh Al Mustaqbil is a one-of-a-kind travel agency designed to cater to the interests of travelers across the globe, founded in 2023 in Riyadh, Saudi Arabia. Our expertise lies in crafting exceptional journeys tailored to each client's unique requirements, whether it be ticketing, hotel bookings, or visa assistance. With competitive pricing and access to superior consulting services, we have become the favored choice among travelers. Fateh Al Mustaqbil plays a pivotal role in shaping the landscape of travel and tour services not only within the Kingdom of Saudi Arabia but also on a global scale.",
+      aboutText2: "Welcome to Fateh Al Mustaqbil, where we advocate exploring the world one adventure at a time. Come, be a part of this remarkable journey, and together, let's craft experiences that transcend time and place.",
+      navHome: "Home",
+      navService: "Service",
+      navAbout: "About",
+      navContact: "Contact",
+      footerHome: "Home",
+      footerService: "Service",
+      footerAbout: "About",
+      footerContact: "Contact",
+      footerCopy: "All rights reserved for 2024",
+    },
+    ar: {
+      aboutHeading: "عن",
+      aboutText1: "فاتح المستقبل هي وكالة سفر فريدة من نوعها تهدف إلى تلبية اهتمامات المسافرين من جميع أنحاء العالم. تأسست في عام 2023 في الرياض، المملكة العربية السعودية. نحن نتميز بتقديم رحلات استثنائية مصممة خصيصًا لتلبية متطلبات كل عميل سواء كان ذلك لحجز التذاكر أو الفنادق أو المساعدة في التأشيرات. بفضل الأسعار التنافسية والخدمات الاستشارية المتميزة، أصبحنا الخيار المفضل للمسافرين. تلعب فاتح المستقبل دورًا بارزًا في تشكيل مشهد خدمات السفر والسياحة ليس فقط داخل المملكة العربية السعودية ولكن أيضًا على نطاق عالمي.",
+      aboutText2: "مرحبًا بكم في فاتح المستقبل، حيث ندعو إلى استكشاف العالم مغامرة واحدة في كل مرة. انضموا إلينا لنصنع تجارب استثنائية تتجاوز الزمان والمكان.",
+      navHome: "الرئيسية",
+      navService: "الخدمات",
+      navAbout: "معلومات عنا",
+      navContact: "اتصل بنا",
+      footerHome: "الرئيسية",
+      footerService: "الخدمات",
+      footerAbout: "معلومات عنا",
+      footerContact: "اتصل بنا",
+      footerCopy: "جميع الحقوق محفوظة لعام ٢٠٢٤",
+    },
+  };
+
+  function updateLanguage(language) {
+  
+    document.body.setAttribute("lang", language);
+
+    
+    const navLinks = document.querySelectorAll(".navbar-links a");
+    navLinks[0].textContent = translations[language].navHome;
+    navLinks[1].textContent = translations[language].navService;
+    navLinks[2].textContent = translations[language].navAbout;
+    navLinks[3].textContent = translations[language].navContact;
+
+  
+    document.querySelector(".about-content h2").textContent = translations[language].aboutHeading;
+    const paragraphs = document.querySelectorAll(".about-content p");
+    paragraphs[0].textContent = translations[language].aboutText1;
+    paragraphs[1].textContent = translations[language].aboutText2;
+
+
+    const footerLinks = document.querySelectorAll(".footer-nav a");
+    footerLinks[0].textContent = translations[language].footerHome;
+    footerLinks[1].textContent = translations[language].footerService;
+    footerLinks[2].textContent = translations[language].footerAbout;
+    footerLinks[3].textContent = translations[language].footerContact;
+    document.querySelector(".footer-copy").textContent = translations[language].footerCopy;
+
+    
+    document.body.style.direction = language === "ar" ? "rtl" : "ltr";
+    document.body.style.textAlign = language === "ar" ? "right" : "left";
+  }
+
+  
+  document.addEventListener("DOMContentLoaded", () => {
+    const savedLanguage = localStorage.getItem("selectedLanguage") || "en";
+    updateLanguage(savedLanguage);
+  });
+</script>
+
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const menu = document.getElementById('menu');
+
+    menuBtn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>

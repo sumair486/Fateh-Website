@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/main.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kufam&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gabriola&display=swap" rel="stylesheet">
+
+  <title>Contact Us</title>
+</head>
+<body>
+
+
+
+<div class="sm:px-6 lg:px-11">
+  <nav class="bg-white font-bold rounded-lg shadow-lg">
+    <div class="flex justify-between items-center h-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+     
+      <div class="flex-shrink-0">
+        <a href="#" class="text-xl font-bold"><img src="../assets/FATEH LOGO.png" alt="Logo"></a>
+      </div>
+
+      
+      <div style="font-family:cooper;" class="navbar-links hidden md:flex space-x-10 relative">
+        <a href="../index.html" class="relative text-14px ml-10 leading-26px text-customgrey ">
+          Home
+        
+        </a>
+        
+        <a href="about-us.html" class="relative text-14px leading-26px text-customgrey ">
+          About
+         
+        </a>
+        <a href="service.html" class="relative text-14px leading-26px text-customgrey">
+          Services
+        </a>
+        <a href="contact.html" class="relative text-14px leading-26px  text-customOrange">
+          Contact
+           <span
+          class="absolute left-1/2 -bottom-[8px] -translate-x-1/2 w-[21px] h-[8px] bg-customOrange"
+          style="clip-path: polygon(50% 0%, 0% 100%, 100% 100%);">
+        </span>
+        </a>
+      </div>
+
+      
+      <div class="md:hidden flex items-center">
+        <button id="menu-btn" class="focus:outline-none">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+ 
+    <div id="menu" class="hidden md:hidden bg-white">
+      <a href="../index.html" class="relative block px-4 py-2 font-cooper text-14px  text-customgrey leading-26px">
+        Home
+       
+      </a>
+      <a href="about-us.html" class="block px-4 py-2 font-cooper text-14px leading-26px  text-customgrey">
+        About
+      
+      </a>
+      <a href="service.html" class="block px-4 py-2 font-cooper text-14px leading-26px text-customgrey">
+        Services
+      </a>
+      <a href="contact.html" class="block px-4 py-2 font-cooper text-14px leading-26px  text-customOrange">
+        Contact
+        <!-- <span
+        class="absolute left-[11%] -bottom-[-620px] -translate-x-1/2 w-[21px] h-[8px] bg-[#F65934]"
+        style="clip-path: polygon(50% 0%, 0% 100%, 100% 100%);">
+      </span> -->
+      </a>
+    </div>
+  </nav>
+</div>
+
+
+<!-- contact us  -->
+
+<section class="contact-us-section bg-[#f9f6e9] p-10 rounded-xl mx-auto my-5 w-[95%] text-center font-georgia">
+    <h2 class="font-copper font-bold text-[55px] leading-[46px] text-black mb-10">Contact Us</h2>
+    <div class="contact-container flex flex-col items-center justify-center gap-5 w-full">
+      <form class="contact-form bg-white rounded-xl p-10 shadow-md w-full max-w-[736px]">
+        <div class="form-group flex flex-wrap gap-3 mb-5">
+          <input class="input-color flex-1 p-3 border border-gray-300 rounded-lg bg-contactInputColor text-base" type="text" placeholder="Name" required>
+          <input class="input-color flex-1 p-3 border border-gray-300 rounded-lg bg-contactInputColor text-base" type="email" placeholder="Email" required>
+        </div>
+        <div class="form-group flex flex-wrap gap-3 mb-5">
+          <input class="input-color flex-1 p-3 border border-gray-300 rounded-lg bg-contactInputColor text-base" type="text" placeholder="Phone number" required>
+          <select class="input-color flex-1 p-3 border border-gray-300 rounded-lg bg-contactInputColor text-base" required>
+            <option value="" disabled selected>Services Required</option>
+            <option value="booking">Booking</option>
+            <option value="visa">Visa Assistance</option>
+            <option value="tour">Tour Services</option>
+          </select>
+        </div>
+        <textarea class="input-color w-full p-3 border border-gray-300 rounded-lg bg-contactInputColor text-base resize-none mb-5" placeholder="Description" rows="5" required></textarea>
+        <button type="submit" class="block mx-auto px-5 py-3 border-2 border-[#d4a012] text-[#d4a012] rounded-lg transition-all duration-300 hover:bg-[#d4a012] hover:text-white w-[131px] float-right mt-2">
+          Send
+        </button>
+      </form>
+    </div>
+  </section>
+
+  
+  <section class="contact-info-section flex flex-wrap justify-evenly items-start bg-[#f9f6e9] p-5 font-georgia text-contactTimeColor">
+    <div  class="font-gabriola text-black timing-info text-center mb-5 text-[28px] leading-[26px]">
+      <p class="font-normal">Timings</p>
+      <p class="sunday mt-6">Sunday - Thursday<br>9:00 am - 6:00 pm</p>
+    </div>
+  
+    <div  class="font-gabriola location-info flex flex-col gap-4 text-center text-[28px] leading-[1.5]">
+      <div class="info-item flex items-center gap-2">
+        <img src="../assets/Group 1419.png" alt="Email Icon" class="w-15 h-7">
+        <p>contact@fatehtour.com</p>
+      </div>
+      <div class="info-item flex items-center gap-2">
+        <img src="../assets/map-pin@2x.png" alt="Location Icon" class="w-5 h-7">
+        <p>Haye Al Mansoura, Riyadh</p>
+      
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="cont-section py-12 px-5 max-w-[1200px] mx-auto">
+    <div class="cont-container flex items-center justify-evenly gap-[340px] flex-wrap  md:text-center md:gap-5">
+      <!-- Left Image -->
+      <div class="cont-image">
+        <img src="../assets/Mention-amico (1).png" alt="Contact Illustration" class="w-full max-w-[400px] md:max-w-[300px]">
+      </div>
+  
+      <!-- Right Content -->
+      <div class="cont-content font-gabriola flex-1  text-[26px] leading-[26px]">
+        <h3 class="font-copper dirt font-[900] text-[30px] leading-[20px]">You can directly reach to us</h3>
+        <div class="cont-details flex flex-col items-center gap-5 mt-5">
+          <!-- Contact Item -->
+          <div class="cont-item mr-8 flex items-center gap-3">
+            <img src="../assets/phones.png" alt="Phone Icon" class="w-6 h-6">
+            <img src="../assets/Path 4730.png" alt="Separator Icon" >
+            <p class="text-base md:text-lg font-medium">+996 123 456 789</p>
+          </div>
+          <!-- Email Item -->
+          <div class="cont-item flex items-center gap-3">
+            <img src="../assets/mail.png" alt="Email Icon" class="w-6 h-6">
+            <img src="../assets/Path 4730.png" alt="Separator Icon" >
+            <p class="text-base md:text-lg font-medium">contact@fatehtour.com</p>
+          </div>
+          <!-- Location Item -->
+          <div class="cont-item ml-5  flex items-center gap-3">
+            <img src="../assets/map-pin@2x.png" alt="Location Icon" class="w-6 h-6">
+            <img src="../assets/Path 4730.png" alt="Separator Icon" >
+            <p class="text-base md:text-lg font-medium">Haye Al Mansoura, Riyadh</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="relative w-full overflow-hidden">
+    <div class="relative w-full">
+      <!-- Map Image -->
+      <img src="../assets/Mask Group 3.png" alt="World Map" class="block w-full h-auto object-cover">
+      <!-- Overlay with Text -->
+      <div class="absolute bottom-0 left-0 w-full h-1/2 bg-[#BD9C00] opacity-70 flex items-center justify-center">
+        <div class="map-text-section text-center text-white px-4">
+          <p class="text-base sm:text-lg md:text-xl font-normal leading-7 sm:leading-8 md:leading-10 font-gabriola">Currently Operational in</p>
+          <h1 class="text-2xl sm:text-4xl md:text-6xl font-extrabold leading-snug font-copper">Saudi Arabia</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+  
+
+
+
+<!-- //footer  -->
+<footer class="bg-black text-white text-center py-6">
+  <!-- Footer Logo -->
+  <div class="mt-10">
+    <img src="/assets/FOOTER LOGO.png" alt="Logo" class="mx-auto w-36 mb-5">
+  </div>
+
+  <!-- Footer Navigation -->
+  <nav class="footer-nav mt-12">
+    <ul class="flex justify-center gap-5">
+      <li><a href="#home" class="text-white text-base font-bold hover:text-colorIcon transition-colors">Home</a></li>
+      <li><a href="#services" class="text-white text-base font-bold hover:text-colorIcon transition-colors">Service</a></li>
+      <li><a href="./pages/about-us.html" class="text-white text-base font-bold hover:text-colorIcon transition-colors">About</a></li>
+      <li><a href="#contact" class="text-white text-base font-bold hover:text-colorIcon transition-colors">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Social Icons -->
+  <div class="flex justify-center mt-5 gap-4">
+    <a href="https://facebook.com" target="_blank" class="text-colorIcon text-xl hover:text-colorIcon transition-colors">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://twitter.com" target="_blank" class="text-colorIcon text-xl hover:text-colorIcon transition-colors">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://instagram.com" target="_blank" class="text-colorIcon text-xl hover:text-colorIcon transition-colors">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+
+  <!-- Footer Copyright -->
+  <p class="footer-copy italic text-gray-400 text-lg mt-10 font-serif">
+    All rights reserved for 2024
+  </p>
+</footer>
+
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const menu = document.getElementById('menu');
+
+    menuBtn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+
+
+  
+<script>
+  const translations = {
+     en: {
+       navHome: "Home",
+         navService: "Service",
+         navAbout: "About",
+         navContact: "Contact",
+         footerHome: "Home",
+         footerService: "Service",
+         footerAbout: "About",
+         footerContact: "Contact",
+         footerCopy: "All rights reserved for 2024",
+         contactTitle: "Contact Us",
+         namePlaceholder: "Name",
+         emailPlaceholder: "Email",
+         phonePlaceholder: "Phone number",
+         servicesPlaceholder: "Services Required",
+         serviceOptions: {
+             booking: "Booking",
+             visa: "Visa Assistance",
+             tour: "Tour Services"
+         },
+         descriptionPlaceholder: "Description",
+         sendButton: "Send",
+         timings: "Timings",
+         operational: "Currently Operational in",
+         sunday: "Sunday - Thursday 6am - 9pm",
+         dirt: "You can directly reach to us",
+ 
+ 
+         country: "Saudi Arabia"
+     },
+     ar: {
+         contactTitle: "اتصل بنا",
+         namePlaceholder: "الاسم",
+         emailPlaceholder: "البريد الإلكتروني",
+         phonePlaceholder: "رقم الهاتف",
+         servicesPlaceholder: "الخدمات المطلوبة",
+         serviceOptions: {
+             booking: "حجز",
+             visa: "مساعدة في الفيزا",
+             tour: "خدمات السياحة"
+         },
+         navHome: "الرئيسية",
+         navService: "الخدمات",
+         navAbout: "معلومات عنا",
+         navContact: "اتصل بنا",
+         footerHome: "الرئيسية",
+         footerService: "الخدمات",
+         footerAbout: "معلومات عنا",
+         footerContact: "اتصل بنا",
+         footerCopy: "جميع الحقوق محفوظة لعام ٢٠٢٤",
+         descriptionPlaceholder: "الوصف",
+         sendButton: "إرسال",
+         timings: "أوقات العمل",
+         operational: "نحن نعمل حاليا في",
+         dirt: "يمكنك الوصول إلينا مباشرة",
+ 
+         sunday: " الأحد الخميس 9:00 صباحًا - 6:00 مساءً  ",
+         country: "المملكة العربية السعودية"
+     }
+ };
+ 
+     
+     function updateLanguage(language) {
+       
+       document.body.setAttribute("lang", language);
+       const footerLinks = document.querySelectorAll(".footer-nav a");
+     
+     const navLinks = document.querySelectorAll(".navbar-links a");
+     navLinks[0].textContent = translations[language].navHome;
+     navLinks[1].textContent = translations[language].navService;
+     navLinks[2].textContent = translations[language].navAbout;
+     navLinks[3].textContent = translations[language].navContact;
+  
+     footerLinks[0].textContent = translations[language].footerHome;
+     footerLinks[1].textContent = translations[language].footerService;
+     footerLinks[2].textContent = translations[language].footerAbout;
+     footerLinks[3].textContent = translations[language].footerContact;
+     document.querySelector(".footer-copy").textContent = translations[language].footerCopy;
+ 
+   
+     document.querySelector(".contact-us-section h2").textContent = translations[language].contactTitle;
+     document.querySelector(".contact-form input[placeholder='Name']").placeholder = translations[language].namePlaceholder;
+     document.querySelector(".contact-form input[placeholder='Email']").placeholder = translations[language].emailPlaceholder;
+     document.querySelector(".contact-form input[placeholder='Phone number']").placeholder = translations[language].phonePlaceholder;
+     document.querySelector(".contact-form select option[value='']").textContent = translations[language].servicesPlaceholder;
+     document.querySelector(".contact-form select option[value='booking']").textContent = translations[language].serviceOptions.booking;
+     document.querySelector(".contact-form select option[value='visa']").textContent = translations[language].serviceOptions.visa;
+     document.querySelector(".contact-form select option[value='tour']").textContent = translations[language].serviceOptions.tour;
+     document.querySelector(".contact-form textarea[placeholder='Description']").placeholder = translations[language].descriptionPlaceholder;
+     document.querySelector(".contact-form button").textContent = translations[language].sendButton;
+ 
+    
+     document.querySelector(".timing-info p").textContent = translations[language].timings;
+     document.querySelector(".sunday").textContent = translations[language].sunday;
+ 
+ 
+ 
+     document.querySelector(".location-info .info-item img[alt='Email Icon']").nextElementSibling.textContent = "contact@fatehtour.com";
+     document.querySelector(".location-info .info-item img[alt='Location Icon']").nextElementSibling.textContent = "Haye Al Mansoura, Riyadh";
+ 
+     
+     document.querySelector(".map-text-section p").textContent = translations[language].operational;
+     document.querySelector(".map-text-section h1").textContent = translations[language].country;
+     document.querySelector(".dirt").textContent = translations[language].dirt;
+ 
+ 
+    
+     document.body.style.direction = language === "ar" ? "rtl" : "ltr";
+     document.body.style.textAlign = language === "ar" ? "right" : "left";
+     }
+ 
+     
+     document.addEventListener("DOMContentLoaded", () => {
+     const savedLanguage = localStorage.getItem("selectedLanguage") || "en"; 
+     updateLanguage(savedLanguage);
+   });
+   </script>
+   
+</body>
+</html>
